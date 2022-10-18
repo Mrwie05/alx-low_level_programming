@@ -1,29 +1,15 @@
-#include <stdio.h>                                                                                                                                                                                                                    
+#include <stdio.h>
+#include <unistd.h>
 
-/**                                                                                                                                                                                                                                   
+/**
+ * main - Entry point
  *
- *    * main - prints to the standard error                                                                                                                                                                                              
- *
- *       *                                                                                                                                                                                                                                  
- *
- *          * Return: one                                                                                                                                                                                                                      
- *
- *             */                                                                                                                                                                                                                                 
+ * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
+ * Return: Always 0 (Success)
+ */
 
-int main(void)                                                                                                                                                                                                                        
-
-{                                                                                                                                                                                                                                     
-
-	        fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");                                                                                                                                             
-
-		        return (1);                                                                                                                                                                                                                   
-
-}                                                                                                                                                                                                                                     
-
-~                                                                                                                                                                                                                                     
-
-~                                                                                                                                                                                                                                     
-
-~                                                                                                                                                                                                                                     
-
-~                                                                                            
+int main(void)
+{
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
+}
