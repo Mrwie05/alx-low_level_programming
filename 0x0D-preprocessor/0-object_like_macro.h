@@ -1,1 +1,3 @@
-#include "main.c"
+#ifndef SIZE
+#define SIZE 1024
+#endif
