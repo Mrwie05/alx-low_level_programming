@@ -1,0 +1,7 @@
+#define BUFSIZE 1020
+
+#define TABLESIZE BUFSIZE
+
+#undef BUFSIZE
+
+#define BUFSIZE 1020
